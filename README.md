@@ -1,1 +1,11 @@
-"projeto semana 10 omnistack" 
+## Projeto Semana Omnistack 10
+
+
+### Tecnologias
+
+
+* ndeJs
+* react
+* mongoDB
+* Axios
+* Express
