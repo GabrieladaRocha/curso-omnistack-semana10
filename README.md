@@ -4,7 +4,7 @@
 ### Tecnologias
 
 
-* ndeJs
+* nodeJs
 * react
 * mongoDB
 * Axios
