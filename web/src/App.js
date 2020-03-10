@@ -1,16 +1,51 @@
-import React from 'react';
+import React, { useState } from 'react'
 
-// comkponente: bloco isolado de html, css e js, o qual não interfere no restnate da aplicação
-// propriedade: 
-//Estado: 
+import './global.css'
+import './App.css'
+
+//   VERIFICAR PORQUE O CADASTRO ESTÁ COLADO NO TOPO DA PAGINA 
 
 function App() {
   return (
-    <h1> Hello World</h1>
-  );
+    <div id="App">
+      <aside>
+        <strong>Cadastrar</strong>
+        <form>
+          <div class="input-block">
+            <label htmlFor="github_username">Usuário do Github</label>
+            <input name="github_username" id="github_username" required />
+          </div>
+
+          <div class="input-block">
+            <label htmlFor="techs">Tecnologias</label>
+            <input name="github_username" id="github_username" required />
+          </div>
+          
+          <div className="input-group">
+            <div class="input-block">
+              <label htmlFor="latitude">Latitude</label>
+              <input name="latitude" id="latitude" required />
+            </div>     
+          </div>
+
+          <div className="input-group">
+            <div class="input-block">
+              <label htmlFor="longitude">Longitude</label>
+              <input name="longitude" id="longitude" required />
+            </div>     
+          </div>
+
+            <button type="submit">Salvar</button>
+
+        </form>
+      </aside>
+      <main>
+
+      </main>
+    </div>
+  )
 }
 
-export default App;
+export default App
 
 
-//parei no 32min
